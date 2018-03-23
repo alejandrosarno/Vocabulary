@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>One Words Substitution Test 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href="css/mycss.css" rel="stylesheet">
+	<script src='dist/js/jquery.min.js'></script>
+	<script src='js/validate.js'></script>
+
+</head>
+
+<body onload='hide()'>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="Index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="Synonyms.html">Synonyms</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Antonyms">Antonyms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="One words substitution.html">One words substitution</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link disabled" href="Sentence Improvement.html">Sentence Improvement</a>
+      </li>
+	  
+    </ul>
+    
+  </div>
+</nav>
+            </div>
+
+
+</div>
+	<br>
+	 <div class="container">
+	  <div class='row'>
+		<div id='1' class="col-sm-8 offset-sm-2">
+		 <div class="panel panel-info" >
+		  <div class="panel-heading">
+		   <div class="panel-title">
+
+			 <h4 class='text-center'>1. One who is habitual</h4>
+
+
+			</div>
+			 </div>
+
+<FORM method="POST"
+      onSubmit="return checkAnswer(this,'B');"
+>
+			  <div class="panel-body" >
+
+			  <form role="form">
+
+			   <div class="form-check">
+				<label class="form-check-label">
+				 <input class="form-check-input" type="radio" name="one words substitutiontest1" id="option1_A" value="option1">
+				     a. Venial
+					</label>
+				</div>
+			<div class="form-check">
+		 <label class="form-check-label">
+		<input class="form-check-input" type="radio" name="one words substitutiontest1" id="option1_B" value="option2">
+					b. Sot
+				</label>
+			 </div>
+		<div class="form-check">
+		 <label class="form-check-label">
+		  <input class="form-check-input" type="radio" name="one words substitutiontest1" id="option1_C" value="option2">
+					c. Heretic
+				</label>
+			 </div>
+			<div class="form-check">
+				<label class="form-check-label">
+			<input class="form-check-input" type="radio" name="one words substitutiontest1" id="option1_D" value="option2">
+					d. Ambidexter
+				</label>
+			</div>
+		<div class="form-group">
+		 <div class="col-sm-4 offset-sm-4 control">
+
+			<button class='btn btn-primary btn-block' type='button' onClick="
+						   var option = document.getElementsByName('one words substitutiontest1');
+						   function Checked(){for(var i = 0; i < option.length ; i++){if(!(option[i].checked == false)){return true;}}}
+						   if(Checked()){
+						   $('#1').hide(); $('#2').show();
+						   }else{alert('Please select an option');}	">
+						    Next
+							</button>
+					      </div>
+						</div>
+					 </form>
+					</div>
+				 </div>
+			  </div>
+             <div  id='2' class="col-sm-8 offset-sm-2">
+			<div class="panel panel-info" >
+				<div class="panel-heading">
+					<div class="panel-title">
+
+						<h4 class='text-center'>2. A jocular who is full of amusing ancedotes</h4>
+
+
+								</div>
+								</div>
+     <FORM method="POST"
+      onSubmit="return checkAnswer(this,'C');"
+>
+									<div class="panel-body" >
+
+										<form role="form">
+
+									<div class="form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" type="radio" name="one words substitutiontest2" id="option2_A" value="option1">
+													a. Ransom
+												</label>
+											</div>
+										<div class="form-check">
+									 <label class="form-check-label">
+										<input class="form-check-input" type="radio" name="one words substitutiontest2" id="option10_B" value="option2">
+													b. Extravagant
+												</label>
+												</div>
+										    <div class="form-check">
+										<label class="form-check-label">
+											<input class="form-check-input" type="radio" name="one words substitutiontest2" id="option2_C" value="option2">
+													c. Wag
+												</label>
+								                </div>
+											<div class="form-check">
+										<label class="form-check-label">
+											<input class="form-check-input" type="radio" name="one words substitutiontest2" id="option2_D" value="option2">
+													d. Extravagant
+												</label>
+												</div>
+											<div class="form-group">
+										<div class="col-sm-4 offset-sm-4 control">
+
+											<button class='btn btn-primary btn-block' type='button' onClick="
+															var option = document.getElementsByName('one words substitutiontest2');
+															function Checked(){for(var i = 0; i < option.length ; i++){if(!(option[i].checked == false)){return true;}}}
+															if(Checked()){
+															validatetest();
+														    $('#2').hide();
+															$('#test1result').show();
+															}else{alert('Please select an option');}">
+														Submit
+													</button>
+												</div>
+											</div>
+										</form>
+								    </div>
+								</div>
+							</div>
+							<div  id='test1result' class="col-sm-8 offset-sm-2">
+								<div class="panel panel-info" >
+								   <div class="panel-heading">
+										<div class="panel-title">
+
+											<h4 class='text-center'>Test 1 Result</h4>
+
+
+												</div>
+												</div>
+
+											<div class="panel-body" >
+
+												<form role="form">
+
+													<div class="form-group">
+														<div class="col-sm-4 offset-sm-4 control">
+															<table class='table'>
+																<tr>
+															        <td>Total Items</td>
+																	<td><span id="One Words Substitutiontesttotalitem"></span></td>
+																</tr>
+																<tr>
+																<td>Correct</td>
+																   <td><span id="one words substitutiontest1correct">
+
+																	</span></td>
+																</tr>
+																<tr>
+																<td>Wrong</td>
+																	<td><span id="one words substitutiontest1wrong">
+																	</span></td>
+																</tr>
+																<tr>
+																<td>Percentage</td>
+																<td><span id="one words substitutiontest1percentage">100</span></td>
+															</tr>
+														</table>
+													</div>
+												</div>
+
+											<div class="form-group">
+										<div class="col-sm-4 offset-sm-4 control">
+
+									<button class='btn btn-primary btn-block' type='button' onClick="
+											location.href='Antonyms.html'">
+													Ok
+								</button>
+						 </div>
+						     </div>
+					            </form>
+				                     </div>
+	                                    </div>
+		                                    </div>
+
+	                                            </div>
+
+                                                    <div>
+		                                                </div>
+															<!-- /#page-content-wrapper -->
+
+																</div>
+															<!-- /#wrapper -->
+
+															<!-- Bootstrap core JavaScript -->
+															<script src="vendor/jquery/jquery.min.js"></script>
+															<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+															<!-- Menu Toggle Script -->
+															<script>
+															$("#menu-toggle").click(function(e) {
+															e.preventDefault();
+															$("#wrapper").toggleClass("toggled");
+												});
+										</script>
+</body>
+</html>

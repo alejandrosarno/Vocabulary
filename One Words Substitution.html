@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>English Vocabulary</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href="css/mycss.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="Index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="Synonyms.html#">Synonyms</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Antonyms.html#">Antonyms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="One words substitution.html">One words substitution</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link disabled" href="Sentence Improvement.html">Sentence Improvement</a>
+      </li>
+	  
+    </ul>
+    
+  </div>
+</nav>
+			<br>
+			<div class="container">
+				<div class="row">
+
+					<div class='col-sm-4'>
+						<div class="alert alert-danger" role="alert">
+							<table class='full-width-table' onclick='
+							localStorage.setItem("One Words Substitutiontest1totalitem",10);
+							localStorage.removeItem("One Words Substitutiontest1wrong");
+							localStorage.removeItem("One Words Substitutiontest1correct");
+							location.href="One Words Substitutiontest1.html"
+
+							'>
+								<tr>
+									<td class='text-left'><span class='testnumber'>Test 1</span></td>
+									<td class='text-right'><font color="pink">______________________________</font>Score: <span id='test1score'>
+									<script>
+										if(localStorage.One Words Substitutiontest1correct){
+											document.write(localStorage.One Words Substitutiontest1correct);
+										}else{
+											document.write('0');
+										}
+									</script>
+
+
+									</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class='col-sm-4'>
+						<div class="alert alert-danger" role="alert">
+							<table class='full-width-table' onclick='location.href="one words substitutiontest2.html"'>
+								<tr>
+									<td class='text-left'><span class='testnumber'>Test 2</span></td>
+									<td class='text-right'><font color="pink">______________________________</font>Score: <span id='text1score'>0</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class='col-sm-4'>
+						<div class="alert alert-danger" role="alert">
+							<table class='full-width-table' onclick='location.href="one words substitutiontest3.html"'>
+								<tr>
+									<td class='text-left'><span class='testnumber'>Test 3</span></td>
+									<td class='text-right'><font color="pink">______________________________</font>Score: <span id='text1score'>0</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class='col-sm-4'>
+						<div class="alert alert-danger" role="alert">
+							<table class='full-width-table' onclick='location.href="one words substitutiontest4.html"'>
+								<tr>
+									<td class='text-left'><span class='testnumber'>Test 4</span></td>
+									<td class='text-right'><font color="pink">______________________________</font>Score: <span id='text1score'>0</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class='col-sm-4'>
+						<div class="alert alert-danger" role="alert">
+							<table class='full-width-table' onclick='location.href="one words substitutiontest5.html"'>
+								<tr>
+									<td class='text-left'><span class='testnumber'>Test 5</span></td>
+									<td class='text-right'><font color="pink">______________________________</font>Score: <span id='text1score'>0</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class='col-sm-4'>
+						<div class="alert alert-danger" role="alert">
+							<table class='full-width-table' onclick='location.href="one words substitutiontest6.html"'>
+								<tr>
+									<td class='text-left'><span class='testnumber'>Test 6</span></td>
+									<td class='text-right'><font color="pink">______________________________</font>Score: <span id='text1score'>0</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+
+
+				</div>
+
+			</div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
