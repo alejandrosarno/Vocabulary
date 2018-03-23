@@ -1,1 +1,3 @@
 # Vocabulary
+
+I build this app because i love this kind of app's and i want to learn more in English and the idea this app is very simple learn new English word daily this is a great Great English quiz app for working profession,manager,sales executive and college/university students. Basically all thise who want to improve there English for personal or professional reasons. You might have heard the prase "You cannot learn swimming by wathing a Youtube video. You need to practice to real-word swimming pool. Learning English free was never this easy in summary, this is a great English quiz app for working professional,manager sales executive and college/university students.
